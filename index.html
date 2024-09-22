@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wazama - Front-End Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/asssets/favicon_io (1)/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="manifest" href="/asssets/favicon_io (1)/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    <div id="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <header>
+        <nav>
+            <div class="logo"><img  class="logo-img" src="/asssets/wazama icon no bg.png" alt="" srcset=""></div>
+
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Hello, I'm Wazama</h1>
+            <h2 class="role-title"> </h2>
+            <p class="home-par">I design and develop eye-catching, visually appealing landing pages for businesses.</p>
+            <button class="home-btn"><a href="#contact">Contact Me <i class="fas fa-arrow-right"></i></a></button>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a passionate front-end developer and UI/UX designer based in Lusaka, Zambia, with a degree in Software Engineering and over 2 years of experience creating responsive, Interactive and user-friendly digital solutions. 
+            
+            <br><br> Specializing in HTML, CSS, JavaScript, React.js, and React Native, I'm also proficient in no-code development using Webflow. My ability to quickly adapt to various topics, combined with a user-first approach, allows me to craft intuitive and effective websites and web applications that meet diverse client needs.</p>
+            <br>
+            <p>Currently, I'm embarking on an exciting journey to become a full-stack developer, expanding my skills to encompass both front-end and back-end technologies. This pursuit reflects my commitment to continuous learning and my goal to provide comprehensive, end-to-end solutions for web development projects.</p>
+            <button class="home-btn">
+                <a href="#contact">Resume <i class="fas fa-arrow-right"></i></a>
+            </button>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Technologies</h2>
+            <ul>
+                <li><i class="fab fa-html5"></i> HTML5</li>
+                <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                <li><i class="fab fa-js"></i> JavaScript</li>
+                <li><i class="fab fa-react"></i> React.js</li>
+                <li><i class="fab fa-react"></i> React Native</li>
+                <li><i class="fab fa-wordpress"></i> Webflow</li>
+                <li><i class="fab fa-figma"></i> Figma</li>
+                <li><i class="fab fa-adobe-photoshop"></i> Adobe Photoshop</li>
+            </ul>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom websites built with HTML, CSS, and JavaScript</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look great on all devices</p>
+                </div>
+                <div class="service-item">
+                    <i class="fab fa-react"></i>
+                    <h3>React Development</h3>
+                    <p>Interactive web apps using React.js</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>User-friendly interfaces designed with Figma</p>
+                </div>
+            </div>
+        </section>
+
+        
+
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Front-End Developer</h3>
+                        <h4>Ericolas Technologies</h4>
+                        <ul>
+                            <li>Develop responsive websites and web applications</li>
+                            <li>Collaborate with design and back-end teams</li>
+                            <li>Implement UI/UX designs using modern front-end technologies</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Add more timeline items for previous experiences
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 - 2022</div>
+                    <div class="timeline-content">
+                        <h3>Junior Web Developer</h3>
+                        <h4>Tech Innovators Inc.</h4>
+                        <ul>
+                            <li>Assisted in the development of client websites</li>
+                            <li>Learned and applied best practices in web development</li>
+                            <li>Contributed to internal tools and projects</li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Coming soon! I'm working on adding my portfolio projects here. Check back later to see examples of my work in web development, including landing pages, portfolio sites, and business websites.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <!-- <label for="name">Name:</label> -->
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+
+                <!-- <label for="email">Email:</label> -->
+                <input type="email" id="email" name="email" placeholder="yourname@example.com">
+
+                <!-- <label for="message">Message:</label> -->
+                <textarea id="message" name="message" required placeholder="type message"></textarea>
+
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wazama. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/wazama_dev" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/wazama.dev/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+</html>
