@@ -46,4 +46,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 Wazama - [@your-twitter-handle](https://twitter.com/wazama_dev)
 
+## Live Preview
+[Live Preview](https://wazama.vercel.app/)
 
