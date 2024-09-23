@@ -85,8 +85,12 @@ document.addEventListener('DOMContentLoaded', function() {
         emailjs.init("fTAM3NBu5Z3ck6pxA");
     })();
 
-   
     const form = document.getElementById('contact-form');
+    const successMessage = document.createElement('div');
+    successMessage.classList.add('success-message');
+    successMessage.innerHTML = '<i class="fas fa-check-circle"></i> Thank you for your message! I will get back to you soon.';
+    form.appendChild(successMessage);
+
     form.addEventListener('submit', function(e) {
         e.preventDefault();
         const name = document.getElementById('name').value;
@@ -103,7 +107,10 @@ document.addEventListener('DOMContentLoaded', function() {
             function(response) {
                 console.log("Email sent successfully", response);
                 form.reset();
-                alert('Thank you for your message! I will get back to you soon.');
+                successMessage.classList.add('show');
+                setTimeout(() => {
+                    successMessage.classList.remove('show');
+                }, 10000);
             },
             function(error) {
                 console.log("Failed to send email", error);

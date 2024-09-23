@@ -463,3 +463,26 @@ footer {
 #scroll-to-top:hover {
     background: var(--accent-color);
 }
+
+/* Success message styles */
+.success-message {
+    display: none;
+    background-color: #28a745;
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    transition: opacity 0.3s ease;
+}
+
+.success-message i {
+    margin-right: 0.5rem;
+}
+
+.success-message.show {
+    display: block;
+    opacity: 1;
+}
