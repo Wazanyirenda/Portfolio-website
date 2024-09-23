@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', revealOnScroll);
     revealOnScroll();
 
-    // Typing effect for role title
+    // Typing effect object for 
     const roleTitle = document.querySelector('.role-title');
     const roles = ['Front-End Developer', 'UI/UX Designer'];
     let roleIndex = 0;
@@ -71,15 +71,15 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (isDeleting && charIndex === 0) {
             isDeleting = false;
             roleIndex = (roleIndex + 1) % roles.length;
-            typingSpeed = 200; // Pause before typing next role
+            typingSpeed = 200; 
         } else {
-            typingSpeed = isDeleting ? 50 : 100; // Faster when deleting
+            typingSpeed = isDeleting ? 50 : 100; //speed when deleting
         }
 
         setTimeout(typeRole, typingSpeed);
     }
 
-    typeRole(); // Start the typing effect
+    typeRole(); // typing effectt start
 
     (function() {
         emailjs.init("fTAM3NBu5Z3ck6pxA");
