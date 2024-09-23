@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         navMenu.classList.toggle('show');
     });
 
-    // Close menu when a link is clicked
+    // Close menu when any link is clicked
     navMenu.addEventListener('click', function(e) {
         if(e.target.tagName === 'A') {
             navMenu.classList.remove('show');
