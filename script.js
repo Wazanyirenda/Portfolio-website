@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Navigation toggle
+   
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('nav ul');
 
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Typing effect object for 
     const roleTitle = document.querySelector('.role-title');
-    const roles = ['Front-End Developer', 'UI/UX Designer'];
+    const roles = ['Web Designer','Web Developer'];
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
