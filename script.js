@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Typing effect object for 
     const roleTitle = document.querySelector('.role-title');
-    const roles = ['Web Designer','Web Developer'];
+    const roles = ['Software Engineer','Front-End Developer'];
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
