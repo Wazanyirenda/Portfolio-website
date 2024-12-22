@@ -160,7 +160,7 @@ h2 {
 
 .home-btn{
     margin-top: 24px;
-    width: 165px;
+    width: auto;
     height: 45px;
     font-size: 18px;
     color: var(--text-color);
